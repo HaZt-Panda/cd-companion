@@ -9,6 +9,7 @@
 
 ### Fixed
 - Floating buttons (Waypoints, Teleport to Center, Follow) now correctly reposition when toggling between square and circular window via hotkey or controller combo.
+- Center teleport Y slider now starts at 0 and moves in steps of 5.
 
 ## v0.11.00
 
