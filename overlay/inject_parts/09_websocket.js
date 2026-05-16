@@ -6,8 +6,9 @@
     if (marker) marker.setLngLat([msg.lng, msg.lat]);
     updateNearbyCircle();
     const mm = window.mapManager && window.mapManager.map;
-    if (rotateWithCamera) {
-      // camera_heading controla bearing e centro nesse modo.
+    if (rotateWithCamera && following && !shiftHeld && !nearbySelectionActive && mm) {
+      // Centraliza no player a cada posição; bearing vem do último camera_heading.
+      liveEaseTo(mm, { center: [msg.lng, msg.lat], bearing: lastCameraHeading });
     } else if (following && !shiftHeld && !nearbySelectionActive && rotateWithPlayer && mm) {
       liveEaseTo(mm, { center: [msg.lng, msg.lat], bearing: lastHeading });
     } else if (following && !shiftHeld && !nearbySelectionActive) {

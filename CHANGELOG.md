@@ -2,6 +2,7 @@
 
 ### Fixed
 - Switching to circular mode via controller combo no longer triggers the combo buttons in-game. Focus now returns to the game after a short delay, giving time for the buttons to be released.
+- Overlay follow mode now correctly tracks the player position when moving in a straight line with "Rotate map with camera" enabled. Previously, the map only re-centered when the camera heading changed; it now re-centers on every position update.
 
 ## v0.11.01
 
