@@ -90,8 +90,8 @@
 "settings.controller_combo_label": "Controller-Kombination",
 "settings.open_hotkey_label": "Öffnen-Hotkey",
 "settings.open_combo_label": "Öffnen-Kombination",
-"settings.teleport_marker_hotkey_label": "Hotkey zum Marker",
-"settings.teleport_abort_hotkey_label": "Teleport abbrechen-Hotkey",
+"settings.teleport_marker_hotkey_label": "Hotkey für „Zum Marker gehen“",
+"settings.teleport_abort_hotkey_label": "Hotkey zum Abbrechen",
 "settings.source_label": "Quelle",
 "settings.realtime_transport_label": "Echtzeit-Transport",
 
@@ -127,7 +127,7 @@
 "settings.note_toggle_overlay": "Zeigt oder versteckt das Overlay-Fenster. <b>**Tastaturänderung benötigt Neustart.**</b>",
 "settings.note_focus_toggle": "Wechselt den Fokus zwischen Crimson Desert und der Overlay-Karte. <b>**Neustart erforderlich.**</b>",
 "settings.section_toggle_shape": "Fensterform umschalten",
-"settings.note_toggle_shape": "Wechselt zwischen quadratischem und rundem Fenster. Jeder Modus merkt sich Position und Größe. Tastaturänderung benötigt Neustart.",
+"settings.note_toggle_shape": "Wechselt zwischen quadratischem und kreisförmigem Fenster. Jeder Modus merkt sich seine eigene Position und Größe. Tastaturänderung benötigt Neustart.",
 "settings.note_hotkey_restart": "<b>Neustart erforderlich,</b> um den neuen Hotkey anzuwenden.",
 "settings.note_controller_combo": "Halte die Tastenkombination am Controller gedrückt und lasse sie dann los.<b>**Neustart erforderlich.**</b>",
 "settings.note_realtime_transport": "<b>Overlay neu starten oder Karte neu laden</b>, um Transportänderungen anzuwenden.",
@@ -159,19 +159,19 @@
 "settings.tooltip_heading_source": "auto: nutzt Vorwärtsvektor wenn verfügbar, sonst Delta\nentity: nutzt nur entity+0x80/0x88 (funktioniert im Stand)\ndelta: berechnet immer aus Positionsänderung",
 
 "settings.option_high_dpi_scaling": "High-DPI-Skalierung",
-"settings.option_high_dpi_scaling_desc": "Passt die Oberfläche an die Windows-Anzeigeskalierung an. Deaktivieren, wenn Text zu groß erscheint oder die Oberfläche falsch aussieht. Neustart erforderlich.",
+  "settings.option_high_dpi_scaling_desc": "Skaliert die Benutzeroberfläche passend zur Windows-Anzeigeskalierung. Deaktiviere dies, wenn Text zu groß erscheint oder die Oberfläche fehlerhaft aussieht. Neustart erforderlich.",
 
 "settings.option_disable_gpu_vsync": "GPU-VSync deaktivieren (Multi-Monitor-Fix)",
-"settings.option_disable_gpu_vsync_desc": "Behebt FPS-Limit bei Nutzung des Overlays auf einem zweiten Monitor mit anderer Bildwiederholrate. <b>**Neustart erforderlich.**</b>",
+"settings.option_disable_gpu_vsync_desc": "Behebt das FPS-Limit bei Nutzung des Overlays auf einem zweiten Monitor mit anderer Bildwiederholrate. Neustart erforderlich.",
 
 "settings.combo_realtime_websocket": "WebSocket",
 "settings.combo_realtime_native": "Native Bridge (experimentell)",
 
-"settings.help_waypoints_controls": "Im Popup: D-Pad Hoch/Runter navigieren, A auswählen/teleportieren, Y löschen, B schließen.",
+"settings.help_waypoints_controls": "Im Popup: Mit dem D-Pad hoch/runter navigieren, A zum Auswählen/Teleportieren, Y zum Löschen, B zum Schließen.",
 
 "login.title": "Login erforderlich",
 "login.message": "Du musst dich anmelden,\num auf die Karte zuzugreifen.",
-"login.btn_not_now": "Jetzt nicht",
+"login.btn_not_now": "Nicht jetzt",
 "login.btn_go_to_login": "Zum Login",
 
 "titlebar.btn_back": "Zurück",
